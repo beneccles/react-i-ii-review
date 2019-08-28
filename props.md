@@ -3,14 +3,20 @@
 Answer these on your own, then compare answers as a group
 
 1.  What are props?
+<!-- Props are properties, the values of a class that are passed to a child component.
+Its the Parent's will that allows them to bequeath their values to their children. -->
 
 2.  How do you pass props from a parent to a child?
+<!-- When you call the component in the parent, you can include an assigning value or function. for example <Component prop1=value>. The value of prop1 is passed to the child component, just like an argument call in a function. Don't forget though, you need to pass "props" in as a argument to the constructor and super call.-->
 
 3.  How do you access props from a class based child component?
+<!-- this.props.valuename -->
 
 4.  How do you access props from a functional component?
+<!-- props.functionname -->
 
 5.  How do you bind a function to a parent component so that it can be passed to a child?
+<!-- this.askQuestion = this.askQuestion.bind(this); This then allows you to pass in askQuestion as an attribute in the child component call-->
 
 ### Understand
 

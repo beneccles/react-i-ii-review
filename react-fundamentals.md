@@ -4,21 +4,29 @@ Answer these on your own, then compare answers as a group
 
 1.  What is React?
 
+<!-- React is a JS library that allows us to condense functionality into attachable components. In other words, it gives you the ability to make custom HTML tags, that will render whatever HTML and Javascript you need to, in one callable tag. -->
+
 2.  What is create-react-app?
 
+<!-- CRA ("I'm getting tried of having to write it oput every time) is a boilerplate generator for React. Running CRA will generate the basic folder/file structure you need to make an app, along with the basic files to get started. In other words, its like how some code editors will include boilerplate code when you create a new file. -->
 3.  What is Component Based Architecture?
-
+<!-- The "lego blocks" of React. You code in the functionality you want to the component, and then you can call the component as you want it in the main app.js -->
 4.  What is JSX?
+<!-- JSX is the language of react, and allows us to store data with html tags at the same time.
+const element = <h1>Hello, World!</h1> -->
 
 5.  What is the virtual DOM?
+<!-- The VDOM is a virtual copy of DOM, which is what is edited by React using your code. Once all the changes are made to the VDOM, the VDOM updates the live DOM, only changing what has been updated. This has the benefit of being faster than editing the live DOM directly, since unchanged portions of the page aren't reloaded. -->
 
 6.  What is unidirectional (one-way) data flow?
+<!-- It is exactly what it sounds, data can only go in one direction. Data can only be passed from the parent to child to parent, but can't be accessed by another child of the parent. -->
 
 ### Understand
 
 Discuss these questions in pairs if you have a 4-person group
 
 7.  Summarize what happens when you run `create-react-app my-app`
+<!-- CRA creates the boilerplate code and file structure needed to start a react-app, under the name specified. Every you need to render an app is availble at the start - all you need to do is add any extra functionailty you are looking for. -->
 
 8.  Explain what this code does:
 

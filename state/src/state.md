@@ -4,15 +4,20 @@ Answer these on your own, then compare answers as a group
 
 1.  What is state?
 
+<!-- State is the "bottled" data created inside of the constructor. Similar to creating a variable in normal JS, this data is arranged in such a way that we can pass it to child components. -->
 2.  Where do you set initial state?
+<!-- In App.js, with the base data needed to start building functionality. -->
 
 3.  What method do you use to update state?
+<!-- this.setstate({propertyname: value}) -->
 
 ### Understand
 
 Discuss this question in pairs if you have a 4-person group
 
 4.  Explain what's happening in this component.
+<!-- LeadMentor is called within App.js, and extends from Component in react.
+When LeadMentor is called, the properties it is called with are passed in, similar to how a funciton can be called with arguments being passed in. A new value of questionsAnswered is created as a property within LeadMentor's state. The handleClick function updates questionsAnswered by increasing it by one whenever it is called. Finally, this class renders a div containing the mentor's name, how many questions they have answered today, and a button that increases the number of questions answered. -->
 
 ```jsx
 import React, { Component } from "react";
